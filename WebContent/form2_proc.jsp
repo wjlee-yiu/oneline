@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <%
-	String gender = request.getParameter("gender");
+ 	String gender = request.getParameter("gender");
 	String[] vehicle = request.getParameterValues("vehicle");
 %>
 <body>

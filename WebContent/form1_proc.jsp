@@ -10,7 +10,7 @@
 	String lname = request.getParameter("lname"); 
 	String fname = request.getParameter("fname");
 %>
-
+  
 <body>
 First name : <%= fname %><br>
 Last name : <%= lname %><br>

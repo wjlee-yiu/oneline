@@ -14,4 +14,4 @@
 <%= num12*num32 %><br>
 Today's date: <%= (new java.util.Date()).toLocaleString()%>
 </body>
-</html>
+</html> 
