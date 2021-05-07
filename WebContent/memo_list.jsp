@@ -22,7 +22,7 @@
 	
 	pstmt = con.prepareStatement(sql);
 	ResultSet rs = pstmt.executeQuery(); // select
-	while(rs.next()) {
+	while(rs.next()) { 
 		int no = rs.getInt(1);
 		String memo = rs.getString("memo");
 		String wdate = rs.getString(3);

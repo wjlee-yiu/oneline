@@ -20,7 +20,7 @@
     PreparedStatement pstmt = null;
     
     memo = "«œ«œ«œ~~ »Â»Â»Â";
-
+ 
     Class.forName("com.mysql.cj.jdbc.Driver");
     con = DriverManager.getConnection(url,user, passwd);
 
